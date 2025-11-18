@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharla Nicole Ducusin - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header class="sticky-header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-text">SND</span>
+            </div>
+            <button class="hamburger-menu" id="hamburgerBtn" aria-label="Toggle menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#details" class="nav-link">Details</a>
+                <a href="#about" class="nav-link">About</a>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="greeting-text">Hello, I am <span class="highlight">Sharla Nicole Ducusin</span>!</h1>
+                <button id="viewDetailsBtn" class="view-details-btn">View Full Details</button>
+            </div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </section>
+
+        <!-- Details Section (Hidden initially) -->
+        <section id="details" class="details-section hidden">
+            <div class="details-container">
+                <div class="details-card">
+                    <h2 class="section-title">Personal Details</h2>
+                    
+                    <div class="summary-content">
+                        <div class="summary-section">
+                            <h3 class="summary-heading">Personal Information</h3>
+                            <ul class="summary-list">
+                                <li><strong>Name:</strong> Sharla Nicole Ducusin</li>
+                                <li><strong>Age:</strong> 17 years old</li>
+                                <li><strong>Birthday:</strong> February 18, 2008</li>
+                                <li><strong>Address:</strong> Brgy. Imelda, San Jacinto, Pangasinan</li>
+                                <li><strong>Gender:</strong> Female</li>
+                            </ul>
+                        </div>
+
+                        <div class="summary-section">
+                            <h3 class="summary-heading">Education</h3>
+                            <ul class="summary-list">
+                                <li><strong>Elementary:</strong> Sta. Maria School</li>
+                                <li><strong>Highschool:</strong> San Jacinto National High School - STEM Strand</li>
+                                <li><strong>Current Status:</strong> Currently enrolled in Senior High School</li>
+                            </ul>
+                        </div>
+
+                        <div class="summary-section">
+                            <h3 class="summary-heading">Career Goals</h3>
+                            <ul class="summary-list">
+                                <li><strong>Preferred Course:</strong> Civil Engineering</li>
+                                <li><strong>Preferred Work:</strong> Civil Engineering</li>
+                            </ul>
+                        </div>
+
+                        <div class="summary-section">
+                            <h3 class="summary-heading">Skills</h3>
+                            <div class="summary-tags">
+                                <span class="summary-tag"><span class="emoji-icon">🧩</span> Problem Solving</span>
+                                <span class="summary-tag"><span class="emoji-icon">💡</span> Creative Thinking</span>
+                                <span class="summary-tag"><span class="emoji-icon">📐</span> Mathematics</span>
+                                <span class="summary-tag"><span class="emoji-icon">🔬</span> Science</span>
+                                <span class="summary-tag"><span class="emoji-icon">🎨</span> Art & Design</span>
+                                <span class="summary-tag"><span class="emoji-icon">📊</span> Analytical Skills</span>
+                            </div>
+                        </div>
+
+                        <div class="summary-section">
+                            <h3 class="summary-heading">Hobbies</h3>
+                            <div class="summary-tags">
+                                <span class="summary-tag"><span class="emoji-icon">✂️</span> Making Arts/Crafts</span>
+                                <span class="summary-tag"><span class="emoji-icon">🧩</span> Problem Solving</span>
+                                <span class="summary-tag"><span class="emoji-icon">🎵</span> Playing Instruments</span>
+                            </div>
+                        </div>
+
+                        <div class="summary-section">
+                            <h3 class="summary-heading">Location</h3>
+                            <div class="map-container">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3840.5!2d120.4!3d16.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a8b8b8b8b8b8%3A0x8b8b8b8b8b8b8b8b!2sImelda%2C%20San%20Jacinto%2C%20Pangasinan%2C%20Philippines!5e0!3m2!1sen!2sph!4v1699123456789!5m2!1sen!2sph" 
+                                    width="100%" 
+                                    height="300" 
+                                    style="border:0; border-radius: 15px;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    title="Location Map - Brgy. Imelda, San Jacinto, Pangasinan">
+                                </iframe>
+                                <p class="map-note">📍 Brgy. Imelda, San Jacinto, Pangasinan, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section (Hidden initially) -->
+        <section id="about" class="details-section hidden">
+            <div class="details-container">
+                <div class="details-card">
+                    <h2 class="section-title">About Me</h2>
+                    
+                    <div class="about-content">
+                        <p class="about-paragraph">
+                            Hello! I am <strong>Sharla Nicole Ducusin</strong>, a 17-year-old female student born on 
+                            <strong>February 18, 2008</strong>, currently residing in <strong>Brgy. Imelda, San Jacinto, Pangasinan</strong>. 
+                            I am a passionate and dedicated individual who is currently enrolled in Senior High School at 
+                            <strong>San Jacinto National High School</strong>, pursuing the <strong>STEM (Science, Technology, Engineering, and Mathematics) Strand</strong>.
+                        </p>
+
+                        <p class="about-paragraph">
+                            My educational journey began at <strong>Sta. Maria School</strong> for my elementary education, 
+                            which laid a strong foundation for my academic pursuits. Currently, I am continuing my studies 
+                            at San Jacinto National High School, where I have chosen the STEM strand to align with my interests 
+                            and career aspirations. This educational path has allowed me to develop a strong foundation in 
+                            mathematics, science, and analytical thinking, which are essential skills for my future goals.
+                        </p>
+
+                        <p class="about-paragraph">
+                            I am a person with diverse interests and talents. My hobbies include <strong>making arts and crafts</strong>, 
+                            which allows me to express my creativity and attention to detail. I also enjoy <strong>problem-solving</strong>, 
+                            which challenges me to think critically and find innovative solutions to various challenges. Additionally, 
+                            I have a passion for <strong>playing instruments</strong>, which brings balance to my life and helps me 
+                            develop discipline and patience. These hobbies not only provide me with personal fulfillment but also 
+                            contribute to my overall development as a well-rounded individual.
+                        </p>
+
+                        <p class="about-paragraph">
+                            Throughout my academic journey, I have developed several key skills that I believe will serve me well 
+                            in my future endeavors. These include <strong>problem-solving abilities</strong>, which help me approach 
+                            challenges with a logical and systematic mindset. My <strong>creative thinking</strong> skills enable me 
+                            to see things from different perspectives and come up with innovative solutions. I have a strong foundation 
+                            in <strong>mathematics and science</strong>, which are crucial for my chosen field. Additionally, my 
+                            <strong>art and design</strong> skills complement my technical abilities, and my <strong>analytical skills</strong> 
+                            help me break down complex problems into manageable parts.
+                        </p>
+
+                        <p class="about-paragraph">
+                            My ultimate goal is to pursue a <strong>Bachelor of Science in Civil Engineering</strong> in college. 
+                            Civil Engineering is my dream course because it perfectly combines my passion for problem-solving with my 
+                            interest in creating structures that serve communities. I am drawn to this field because it allows me to 
+                            apply mathematical and scientific principles to design and build infrastructure that improves people's lives. 
+                            The STEM strand has prepared me well for this path, providing me with the necessary knowledge and skills 
+                            in mathematics, physics, and engineering concepts. I am excited about the opportunity to contribute to 
+                            building sustainable and innovative solutions for our society's infrastructure needs.
+                        </p>
+
+                        <p class="about-paragraph">
+                            After completing my degree, I aspire to work as a <strong>Civil Engineer</strong>, where I can apply my 
+                            knowledge and skills to design, construct, and maintain infrastructure projects that benefit communities. 
+                            I am particularly interested in sustainable engineering practices and innovative solutions that address 
+                            environmental challenges while meeting the needs of growing populations. My goal is to make a meaningful 
+                            contribution to society through my work in civil engineering, creating safe, efficient, and sustainable 
+                            infrastructure that will serve future generations.
+                        </p>
+
+                        <p class="about-paragraph">
+                            I am a dedicated student who is committed to achieving my academic and career goals. I believe that with 
+                            hard work, perseverance, and a passion for learning, I can make a positive impact in the field of civil 
+                            engineering. I am excited about the opportunities that lie ahead and look forward to continuing my educational 
+                            journey toward becoming a professional civil engineer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
